@@ -15,12 +15,12 @@ const PHOTOS = [
   },
   {
     src: "/photos/kezia.jpg",
-    caption: "si cantik hari ini 🎀",
+    caption: "udah kayak ngiklan produk 🎀",
     rotate: "3deg",
   },
   {
     src: "/photos/couple-1.jpg",
-    caption: "ketawa bareng terus ya 🤍",
+    caption: "ketawa terus ya 🤍",
     rotate: "-2deg",
   },
 ];
@@ -126,17 +126,16 @@ function Surprise({ onReplay }: { onReplay: () => void }) {
         <p className="mt-4 text-base leading-relaxed text-mocha/80 sm:text-lg">
           Semoga di umur yang baru ini kamu selalu sehat, bahagia, dan
           dikelilingi orang-orang yang sayang sama kamu. Semoga selalu tegar dan
-          tetap semangat dengan harapan. Makasih ya udah jadi kamu — yang
-          ketawanya bikin hari-hari jadi lebih cerah. 🌸
+          tetap semangat dengan harapan. Makasih ya udah kuat 🌸
         </p>
         <blockquote className="mx-auto mt-6 max-w-md rounded-2xl border border-terracotta/25 bg-blush/50 px-5 py-4">
           <p className="font-display text-base font-semibold italic leading-relaxed text-rust sm:text-lg">
-            “Kebebasan di tangan kamu, tetap jaga senyum dan ketawa mu karena itu
-            gratis.”
+            “Kebebasan di tangan kamu, tetap jaga senyum dan ketawa mu
+            yaa, kamu cantik banget pas ketawa.”
           </p>
         </blockquote>
         <p className="mt-6 text-base font-semibold text-mocha sm:text-lg">
-          Wish yang paling kamu mau… semoga beneran terwujud tahun ini. 🎈
+          Wish yang paling kamu mau… pasti terwujud. 🎈
         </p>
       </div>
 
