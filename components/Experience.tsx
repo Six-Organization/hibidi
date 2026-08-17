@@ -125,11 +125,17 @@ function Surprise({ onReplay }: { onReplay: () => void }) {
         </p>
         <p className="mt-4 text-base leading-relaxed text-mocha/80 sm:text-lg">
           Semoga di umur yang baru ini kamu selalu sehat, bahagia, dan
-          dikelilingi orang-orang yang sayang sama kamu. Semua doa baik semoga
-          kejawab satu-satu. Makasih ya udah jadi kamu — yang ketawanya bikin
-          hari-hari jadi lebih cerah. 🌸
+          dikelilingi orang-orang yang sayang sama kamu. Semoga selalu tegar dan
+          tetap semangat dengan harapan. Makasih ya udah jadi kamu — yang
+          ketawanya bikin hari-hari jadi lebih cerah. 🌸
         </p>
-        <p className="mt-4 text-base font-semibold text-mocha sm:text-lg">
+        <blockquote className="mx-auto mt-6 max-w-md rounded-2xl border border-terracotta/25 bg-blush/50 px-5 py-4">
+          <p className="font-display text-base font-semibold italic leading-relaxed text-rust sm:text-lg">
+            “Kebebasan di tangan kamu, tetap jaga senyum dan ketawa mu karena itu
+            gratis.”
+          </p>
+        </blockquote>
+        <p className="mt-6 text-base font-semibold text-mocha sm:text-lg">
           Wish yang paling kamu mau… semoga beneran terwujud tahun ini. 🎈
         </p>
       </div>
