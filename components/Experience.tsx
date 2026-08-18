@@ -71,7 +71,7 @@ function Landing({ onOpen }: { onOpen: () => void }) {
 
       <p className="mt-4 max-w-md text-base text-mocha/75 sm:text-lg">
         Psst… hari ini spesial banget. Aku sembunyiin sesuatu di balik tombol
-        ini. Berani buka? 👀
+        ini. Berani buka? BERANI DONG, AYO PENCETTTT 👀
       </p>
 
       <button
@@ -101,7 +101,7 @@ function Surprise({ onReplay }: { onReplay: () => void }) {
       {/* Hero greeting */}
       <div className="animate-popIn text-center">
         <p className="mb-3 text-sm font-bold uppercase tracking-[0.35em] text-rust">
-          🎂 18 Agustus • hari kamu
+          🎂 18 Agustus • your day
         </p>
         <h1 className="font-display text-5xl font-extrabold leading-[1.05] text-mocha text-shadow-soft sm:text-7xl">
           Selamat
@@ -121,10 +121,10 @@ function Surprise({ onReplay }: { onReplay: () => void }) {
       {/* Message card */}
       <div className="animate-popIn mx-auto mt-8 max-w-2xl rounded-3xl border border-white/70 bg-white/75 p-6 text-center shadow-soft backdrop-blur sm:p-9 [animation-delay:0.15s]">
         <p className="font-display text-xl font-bold text-rust sm:text-2xl">
-          Buat Keziaa yang paling spesial 🤍
+          Buat Keziaa si moodian 🤍
         </p>
         <p className="mt-4 text-base leading-relaxed text-mocha/80 sm:text-lg">
-          Semoga di umur yang baru ini kamu selalu sehat, bahagia, dan
+          Semoga di umur yang udah agak serius ini kamu selalu sehat, bahagia, dan
           dikelilingi orang-orang yang sayang sama kamu. Semoga selalu tegar dan
           tetap semangat dengan harapan. Makasih ya udah kuat 🌸
         </p>
@@ -170,7 +170,7 @@ function Surprise({ onReplay }: { onReplay: () => void }) {
       {/* Footer actions */}
       <div className="mt-14 flex flex-col items-center gap-4">
         <p className="text-center font-display text-lg font-bold text-mocha">
-          Sekali lagi… <span className="text-rust">Happy Birthday, {NAME}! 🎉</span>
+          Once again… <span className="text-rust">Happy Birthday, {NAME}! 🎉</span>
         </p>
         <button
           onClick={onReplay}
@@ -179,7 +179,7 @@ function Surprise({ onReplay }: { onReplay: () => void }) {
           ↺ Ulangi kejutannya
         </button>
         <p className="mt-2 text-xs font-semibold uppercase tracking-[0.3em] text-mocha/40">
-          dibuat dengan 🤍
+          Love Love Love
         </p>
       </div>
     </section>
